@@ -20,7 +20,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Sync 6.6.y
+      - name: Sync 6.18.y
         run: |
           git remote add upstream https://github.com/microsoft/WSL2-Linux-Kernel.git
           git fetch upstream
