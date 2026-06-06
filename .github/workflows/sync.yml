@@ -25,5 +25,5 @@ jobs:
           git remote add upstream https://github.com/microsoft/WSL2-Linux-Kernel.git
           git fetch upstream
           git checkout main
-          git merge upstream/linux-msft-wsl-6.6.y --no-edit --allow-unrelated-histories
+          git merge upstream/linux-msft-wsl-6.18.y --no-edit --allow-unrelated-histories
           git push origin main
